@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111114" />
+
+  <!-- ============ SEO ============ -->
+  <title>Muhammad Muzamil — Full-Stack Web Developer</title>
+  <meta name="description" content="Muhammad Muzamil is a full-stack web developer and Computer Science student in Multan, Pakistan, building real applications with Laravel, Vue, PHP and MySQL." />
+  <meta name="author" content="Muhammad Muzamil" />
+  <meta name="keywords" content="Muhammad Muzamil, full-stack developer, web developer, Laravel developer, Vue developer, PHP, MySQL, JavaScript, Multan, Pakistan, portfolio, computer science student" />
+  <link rel="canonical" href="https://muhammadmuzamil.dev/" />
+  <!-- TODO: replace canonical + og:url + og:image with your real deployed domain and a 1200x630 preview image -->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Muzamil — Full-Stack Web Developer" />
+  <meta property="og:description" content="Full-stack web developer building real applications with Laravel, Vue, PHP and MySQL." />
+  <meta property="og:url" content="https://muhammadmuzamil.dev/" />
+  <meta property="og:image" content="https://muhammadmuzamil.dev/assets/img/og-cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Muhammad Muzamil — Full-Stack Web Developer" />
+  <meta name="twitter:description" content="Full-stack web developer building real applications with Laravel, Vue, PHP and MySQL." />
+  <meta name="twitter:image" content="https://muhammadmuzamil.dev/assets/img/og-cover.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23111114'/%3E%3Cpath d='M22 74V26h10l18 26 18-26h10v48H66V45L50 68 34 45v29z' fill='%238b98ff'/%3E%3C/svg%3E" />
+
+  <!-- ============ Fonts ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- ============ Structured data ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Muzamil",
+    "jobTitle": "Full-Stack Web Developer",
+    "description": "Computer Science student and full-stack web developer building real applications with Laravel and Vue.",
+    "email": "mailto:malikmuzamil3889@gmail.com",
+    "telephone": "+92-328-7362120",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Multan",
+      "addressCountry": "Pakistan"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Air University, Multan Campus"
+    },
+    "knowsAbout": ["Laravel", "Vue.js", "PHP", "JavaScript", "Tailwind CSS", "MySQL", "WebSockets", "HTML", "CSS", "C++", "C#", "Kotlin", "Git"],
+    "worksFor": { "@type": "Organization", "name": "Vista Solutions" },
+    "url": "https://muhammadmuzamil.dev/",
+    "sameAs": [
+      "https://github.com/MuhammadMuzamil514",
+      "https://www.linkedin.com/in/muhammad-muzamil-16404b3ba"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Intro -->
+  <div class="preloader" data-preloader>
+    <div class="preloader__row">
+      <span class="preloader__mark">MM</span>
+      <span class="preloader__bar"><span data-preload-fill></span></span>
+      <span class="preloader__pct"><span data-preload-pct>0</span>%</span>
+    </div>
+  </div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Custom cursor (desktop, pointer devices only) -->
+  <div class="cursor" data-cursor aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <a href="#home" class="nav__brand" aria-label="Muhammad Muzamil — home">
+        <span class="nav__mark">M</span>
+        <span class="nav__name">Muzamil<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about" data-navlink>About</a>
+        <a href="#skills" data-navlink>Skills</a>
+        <a href="#experience" data-navlink>Experience</a>
+        <a href="#projects" data-navlink>Projects</a>
+        <a href="#services" data-navlink>Services</a>
+        <a href="#contact" data-navlink>Contact</a>
+      </nav>
+
+      <button class="nav__cmdk" data-cmdk-open aria-label="Open command menu">
+        <kbd data-kbd-mod>Ctrl</kbd><kbd>K</kbd>
+      </button>
+
+      <a href="assets/docs/Muhammad_Muzamil_CV.pdf" class="btn btn--sm nav__cta" data-magnetic target="_blank" rel="noopener">
+        Résumé
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <button class="nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="mobile-menu" data-menu>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#about" data-navlink><span class="menu__idx">01</span> About</a>
+      <a href="#skills" data-navlink><span class="menu__idx">02</span> Skills</a>
+      <a href="#experience" data-navlink><span class="menu__idx">03</span> Experience</a>
+      <a href="#projects" data-navlink><span class="menu__idx">04</span> Projects</a>
+      <a href="#services" data-navlink><span class="menu__idx">05</span> Services</a>
+      <a href="#contact" data-navlink><span class="menu__idx">06</span> Contact</a>
+    </nav>
+    <a href="assets/docs/Muhammad_Muzamil_CV.pdf" class="btn btn--block" target="_blank" rel="noopener">Download Résumé</a>
+    <div class="menu__social">
+      <a href="https://github.com/MuhammadMuzamil514" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/muhammad-muzamil-16404b3ba" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+      <a href="mailto:malikmuzamil3889@gmail.com" aria-label="Email">Email</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__glow" data-hero-glow aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <div class="hero__main">
+          <p class="eyebrow" data-reveal>
+            <span class="eyebrow__dot"></span> Multan, Pakistan — open to work
+          </p>
+
+          <h1 class="hero__title">
+            <span class="line"><span data-reveal-line>I build for</span></span>
+            <span class="line"><span data-reveal-line>the web —</span></span>
+            <span class="line"><span data-reveal-line><em>end to end</em>.</span></span>
+          </h1>
+
+          <p class="hero__lead" data-reveal>
+            I'm <strong>Muhammad Muzamil</strong>, a Computer Science student and web developer in
+            Multan. I take projects from blank file to deployed — the interface, the interaction,
+            and the Laravel&nbsp;/&nbsp;MySQL layer behind it.
+          </p>
+
+          <div class="hero__actions" data-reveal>
+            <a href="#projects" class="btn" data-magnetic>
+              View my work
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--ghost" data-magnetic>Get in touch</a>
+          </div>
+
+          <div class="hero__socials" data-reveal>
+            <a href="https://github.com/MuhammadMuzamil514" target="_blank" rel="noopener" aria-label="GitHub profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2A10 10 0 0 0 8.84 21.5c.5.09.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-muzamil-16404b3ba" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.3 8.5h3.28V21H3.3V8.5Zm5.36 0h3.14v1.71h.05c.44-.83 1.5-1.71 3.1-1.71 3.3 0 3.91 2.17 3.91 5V21h-3.27v-4.55c0-1.08-.02-2.48-1.51-2.48-1.51 0-1.74 1.18-1.74 2.4V21H8.66V8.5Z"/></svg>
+            </a>
+            <a href="mailto:malikmuzamil3889@gmail.com" aria-label="Send an email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="2"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero__aside" data-reveal>
+          <figure class="portrait" data-tilt>
+            <img src="assets/img/profile.jpg" alt="Portrait of Muhammad Muzamil" width="480" height="576" loading="eager" />
+            <figcaption class="portrait__badge">
+              <span class="pulse"></span> Available for work
+            </figcaption>
+          </figure>
+
+          <dl class="hero__facts">
+            <div>
+              <dt>Stack</dt>
+              <dd>Laravel · Vue · PHP · MySQL</dd>
+            </div>
+            <div>
+              <dt>Latest</dt>
+              <dd>
+                <a href="#projects" class="link">Medium Clone
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt>Now</dt>
+              <dd>Laravel/PHP intern at Vista Solutions</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <ul class="marquee__track">
+        <li>Laravel</li><li>Vue.js</li><li>PHP</li><li>JavaScript</li><li>MySQL</li>
+        <li>Tailwind CSS</li><li>WebSockets</li><li>REST APIs</li><li>HTML</li><li>CSS</li>
+        <li>Git &amp; GitHub</li><li>Vite</li><li>C++</li><li>Accessibility</li><li>Performance</li>
+      </ul>
+      <ul class="marquee__track">
+        <li>Laravel</li><li>Vue.js</li><li>PHP</li><li>JavaScript</li><li>MySQL</li>
+        <li>Tailwind CSS</li><li>WebSockets</li><li>REST APIs</li><li>HTML</li><li>CSS</li>
+        <li>Git &amp; GitHub</li><li>Vite</li><li>C++</li><li>Accessibility</li><li>Performance</li>
+      </ul>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section__head" data-num="01" data-reveal>
+          <span class="section__idx">01</span>
+          <h2 class="section__title">About</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text">
+            <p class="about__lead" data-reveal>
+              I'm a 7th-semester Computer Science student at Air University, Multan Campus,
+              and I learn by building real things — not just following tutorials.
+            </p>
+            <p data-reveal>
+              My focus is full-stack web: Laravel and Vue for real applications, a MySQL database
+              underneath, and real-time features when a product needs them. I care about the
+              details most people skip — responsive behaviour at every screen size, keyboard
+              accessibility, fast load times and code that the next person can read.
+            </p>
+            <p data-reveal>
+              I interned on the web team at Dee Designers, and I'm currently a Laravel/PHP
+              intern at Vista Solutions building production apps. Alongside coursework in Data
+              Structures, DBMS, OOP, Computer Networks and Mobile Computing, I'm also comfortable
+              in C++, C# and Kotlin.
+            </p>
+
+            <ul class="about__philosophy" data-reveal>
+              <li><span>//</span> Ship small, ship often, refine relentlessly.</li>
+              <li><span>//</span> Accessibility and performance are features, not extras.</li>
+              <li><span>//</span> If I can't explain the code, it isn't done.</li>
+            </ul>
+          </div>
+
+          <div class="about__stats" data-reveal>
+            <div class="stat">
+              <span class="stat__num" data-count="4">4</span>
+              <span class="stat__label">Projects built</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="2" data-suffix="">2</span>
+              <span class="stat__label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">7th</span>
+              <span class="stat__label">Semester BSCS</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">3.05</span>
+              <span class="stat__label">Current CGPA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <header class="section__head" data-num="02" data-reveal>
+          <span class="section__idx">02</span>
+          <h2 class="section__title">Skills &amp; toolbox</h2>
+        </header>
+
+        <div class="skills" data-reveal-group>
+          <article class="skillgroup" data-reveal>
+            <h3>Backend</h3>
+            <ul>
+              <li data-skill><span class="skillgroup__name">Laravel</span><span class="skillgroup__note">MVC, Eloquent, queues, Blade</span></li>
+              <li data-skill><span class="skillgroup__name">PHP</span><span class="skillgroup__note">OOP, server logic, CRUD</span></li>
+              <li data-skill><span class="skillgroup__name">REST APIs</span><span class="skillgroup__note">Designing &amp; consuming endpoints</span></li>
+            </ul>
+          </article>
+
+          <article class="skillgroup" data-reveal>
+            <h3>Frontend</h3>
+            <ul>
+              <li data-skill><span class="skillgroup__name">Vue.js</span><span class="skillgroup__note">Components, state, Vite</span></li>
+              <li data-skill><span class="skillgroup__name">JavaScript</span><span class="skillgroup__note">DOM, fetch, ES modules</span></li>
+              <li data-skill><span class="skillgroup__name">HTML, CSS &amp; Tailwind</span><span class="skillgroup__note">Semantic, utility-first, responsive</span></li>
+            </ul>
+          </article>
+
+          <article class="skillgroup" data-reveal>
+            <h3>Data &amp; real-time</h3>
+            <ul>
+              <li data-skill><span class="skillgroup__name">MySQL</span><span class="skillgroup__note">Schema design, queries, joins</span></li>
+              <li data-skill><span class="skillgroup__name">WebSockets</span><span class="skillgroup__note">Live updates via Laravel Reverb</span></li>
+              <li data-skill><span class="skillgroup__name">Queues &amp; jobs</span><span class="skillgroup__note">Async background processing</span></li>
+            </ul>
+          </article>
+
+          <article class="skillgroup" data-reveal>
+            <h3>Languages &amp; tools</h3>
+            <ul>
+              <li data-skill><span class="skillgroup__name">C++ · C# · Kotlin</span><span class="skillgroup__note">DSA, OOP, mobile computing</span></li>
+              <li data-skill><span class="skillgroup__name">Git &amp; GitHub</span><span class="skillgroup__note">Version control, collaboration</span></li>
+              <li data-skill><span class="skillgroup__name">VS Code · Vite · Composer</span><span class="skillgroup__note">Daily toolchain</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section">
+      <div class="container">
+        <header class="section__head" data-num="03" data-reveal>
+          <span class="section__idx">03</span>
+          <h2 class="section__title">Experience &amp; education</h2>
+        </header>
+
+        <ol class="timeline" data-reveal-group>
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__body">
+              <div class="timeline__meta">
+                <span class="timeline__period">Sep 2023 — Present</span>
+                <span class="timeline__place">Air University, Multan Campus</span>
+              </div>
+              <h3 class="timeline__role">BSc Computer Science</h3>
+              <p>Currently in the 7th semester with a 3.05 CGPA. Coursework spanning
+                Data Structures, DBMS, Object-Oriented Programming, Computer Networks and
+                Mobile Computing.</p>
+              <ul class="tags">
+                <li>C++</li><li>DBMS</li><li>OOP</li><li>Networks</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__body">
+              <div class="timeline__meta">
+                <span class="timeline__period">2024 — 2025</span>
+                <span class="timeline__place">Self-directed</span>
+              </div>
+              <h3 class="timeline__role">Web Developer</h3>
+              <p>Taught myself web development by shipping real things — a multi-section
+                business website and responsive landing pages — handling layout, interaction
+                and the PHP / MySQL layer, and building the habits that carried into my internships.</p>
+              <ul class="tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>MySQL</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item" data-reveal>
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__body">
+              <div class="timeline__meta">
+                <span class="timeline__period">Jul — Aug 2025</span>
+                <span class="timeline__place">Dee Designers (SMC-Private) Ltd · Multan</span>
+              </div>
+              <h3 class="timeline__role">Web Development Intern</h3>
+              <p>Six-week internship on the web team: collaborated on UI/UX improvements,
+                debugged and resolved web issues, maintained code and process documentation,
+                and took part in team meetings and project discussions.</p>
+              <ul class="tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>UI/UX</li><li>Git</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item timeline__item--current" data-reveal>
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__body">
+              <div class="timeline__meta">
+                <span class="timeline__period">Jul 2026 — Present</span>
+                <span class="timeline__place">Vista Solutions</span>
+              </div>
+              <h3 class="timeline__role">Laravel / PHP Development Intern</h3>
+              <p>Building production Laravel applications with a working team — including a
+                Medium-style blogging platform with a real-time creator dashboard and a full
+                e-commerce store — from database schema and PHP logic through to the Vue front end.</p>
+              <ul class="tags">
+                <li>Laravel</li><li>Vue.js</li><li>PHP</li><li>MySQL</li><li>Blade</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <header class="section__head" data-num="04" data-reveal>
+          <span class="section__idx">04</span>
+          <h2 class="section__title">Selected projects</h2>
+        </header>
+
+        <!-- Featured case study -->
+        <article class="case" data-reveal>
+          <div class="case__media" data-cursor-view>
+            <span class="shot-bar" data-url="medium-clone" aria-hidden="true"></span>
+            <!-- TODO: drop your Medium Clone screenshot in as assets/img/project-medium.jpg (≈1200×760) -->
+            <img src="assets/img/project-medium.jpg" alt="Medium Clone — a blogging platform with a real-time creator dashboard, post editor and clap system" width="1200" height="760" loading="lazy" />
+          </div>
+          <div class="case__body">
+            <p class="case__tag">Featured · Full-stack web app</p>
+            <h3 class="case__title">Medium Clone</h3>
+
+            <div class="case__flow">
+              <div>
+                <h4>Problem</h4>
+                <p>A blogging platform is more than pages — authors want instant feedback on reads and claps, and publishing shouldn't block the request.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Publish posts, clap for stories, and a creator dashboard where post counts, claps and followers update live across every open tab.</p>
+              </div>
+              <div>
+                <h4>Tech</h4>
+                <p>Laravel + Vue 3 (Vite), Tailwind CSS, MySQL, and Laravel Reverb for WebSocket broadcasting.</p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>Stats broadcast over private real-time channels; post creation runs as an async queued job. Built during my Laravel internship at Vista Solutions.</p>
+              </div>
+            </div>
+
+            <ul class="tags">
+              <li>Laravel</li><li>Vue.js</li><li>Tailwind CSS</li><li>WebSockets</li><li>MySQL</li>
+            </ul>
+            <div class="case__links">
+              <a href="https://github.com/MuhammadMuzamil514/Medium-Clone-" class="link" target="_blank" rel="noopener" data-magnetic>View source
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8m9 0v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <span class="case__note">Walkthrough on request</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Split layout -->
+        <article class="split" data-reveal>
+          <div class="split__body">
+            <p class="case__tag">Business website</p>
+            <h3 class="case__title">Red Chilli Pakistan</h3>
+            <p><strong>Problem.</strong> A spice wholesaler needed an online presence to showcase products and capture dealer enquiries.</p>
+            <p><strong>Solution.</strong> A multi-section marketing site — hero, product range, supply process and a quote/contact flow — with a bold, appetite-driven visual identity.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive</li>
+            </ul>
+            <div class="case__links">
+              <a href="https://github.com/MuhammadMuzamil514" class="link" target="_blank" rel="noopener" data-magnetic>View source
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8m9 0v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="split__media" data-cursor-view>
+            <span class="shot-bar" data-url="red-chilli-pakistan" aria-hidden="true"></span>
+            <img src="assets/img/project-redchilli.jpg" alt="Red Chilli Pakistan website hero section with navigation and a call to action" width="1040" height="500" loading="lazy" />
+          </div>
+        </article>
+
+        <!-- Minimal card -->
+        <article class="mini" data-reveal>
+          <div class="mini__media" data-cursor-view>
+            <span class="shot-bar" data-url="restaurant-landing" aria-hidden="true"></span>
+            <img src="assets/img/project-restaurant.jpg" alt="Restaurant landing page section with heading and feature list beside a photo" width="1240" height="600" loading="lazy" />
+          </div>
+          <div class="mini__body">
+            <p class="case__tag">Concept · Practice build</p>
+            <h3 class="case__title">Restaurant Landing Page</h3>
+            <p>A modern restaurant landing page built to practise layout composition, typography
+              scale and responsive image handling.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <div class="mini__links">
+              <a href="https://github.com/MuhammadMuzamil514" class="link link--muted" target="_blank" rel="noopener">View source</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects__cta" data-reveal>
+          <a class="btn-wide" href="https://github.com/MuhammadMuzamil514?tab=repositories" target="_blank" rel="noopener" data-magnetic>
+            <svg class="bw-gh" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2A10 10 0 0 0 8.84 21.5c.5.09.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            <span>View more projects on GitHub</span>
+            <svg class="bw-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M17 7H8m9 0v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section__head" data-num="05" data-reveal>
+          <span class="section__idx">05</span>
+          <h2 class="section__title">How I can help</h2>
+        </header>
+
+        <div class="services" data-reveal-group>
+          <article class="service" data-reveal>
+            <span class="service__num">01</span>
+            <h3>Full-stack web apps</h3>
+            <p>Laravel + Vue applications from schema to screen: auth, CRUD, dashboards and
+              admin panels backed by a clean MySQL database.</p>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service__num">02</span>
+            <h3>Frontend &amp; responsive UI</h3>
+            <p>Semantic HTML, Tailwind / modern CSS and JavaScript — interfaces that work from
+              320px phones to ultrawide, accessible and consistent across browsers.</p>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service__num">03</span>
+            <h3>Backend &amp; databases</h3>
+            <p>PHP / Laravel APIs, database design, queued background jobs, and content that's
+              easy for a non-technical client to update.</p>
+          </article>
+          <article class="service" data-reveal>
+            <span class="service__num">04</span>
+            <h3>Real-time features</h3>
+            <p>Live dashboards, notifications and updating counters over WebSockets — the kind
+              of interactivity that makes a product feel alive.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section section--alt contact">
+      <div class="container">
+        <header class="section__head" data-num="06" data-reveal>
+          <span class="section__idx">06</span>
+          <h2 class="section__title">Contact</h2>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__pitch" data-reveal>
+            <p class="contact__big">Let's build<br />something together.</p>
+            <p class="contact__sub">
+              I'm open to freelance projects, collaboration and full-time roles after I graduate.
+              Tell me what you're working on and I'll reply within a day.
+            </p>
+
+            <ul class="contact__list">
+              <li>
+                <span class="contact__k">Email</span>
+                <a href="mailto:malikmuzamil3889@gmail.com" class="link">malikmuzamil3889@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact__k">Phone</span>
+                <a href="tel:+923287362120" class="link">+92 328 7362120</a>
+              </li>
+              <li>
+                <span class="contact__k">Location</span>
+                <span>Multan, Pakistan</span>
+              </li>
+              <li>
+                <span class="contact__k">Elsewhere</span>
+                <span class="contact__social">
+                  <a href="https://github.com/MuhammadMuzamil514" target="_blank" rel="noopener" class="link">GitHub</a>
+                  <a href="https://www.linkedin.com/in/muhammad-muzamil-16404b3ba" target="_blank" rel="noopener" class="link">LinkedIn</a>
+                </span>
+              </li>
+            </ul>
+
+            <p class="contact__note">
+              <span class="eyebrow__dot"></span>
+              Multan · PKT (UTC+5) · replies within a day
+            </p>
+          </div>
+
+          <form class="contact__form" data-contact-form data-reveal novalidate>
+            <!-- TODO: to receive submissions, create a free form endpoint (e.g. Formspree)
+                 and set: <form action="https://formspree.io/f/XXXX" method="POST">
+                 Until then, this form opens the visitor's email client as a fallback. -->
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="cf-subject">Subject</label>
+              <input id="cf-subject" name="subject" type="text" required />
+            </div>
+            <div class="field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--block" data-magnetic>
+              Send message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m0 0-6-6m6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="contact__status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark">M</span>
+        <div>
+          <p class="footer__name">Muhammad Muzamil</p>
+          <p class="footer__tag">Building for the web — end to end.</p>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer__social">
+        <a href="https://github.com/MuhammadMuzamil514" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-muzamil-16404b3ba" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:malikmuzamil3889@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Muhammad Muzamil. All rights reserved.</p>
+      <button class="footer__top" data-scroll-top>
+        Back to top
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- ================= COMMAND MENU ================= -->
+  <div class="cmdk" data-cmdk hidden>
+    <div class="cmdk__scrim" data-cmdk-close></div>
+    <div class="cmdk__panel" role="dialog" aria-modal="true" aria-label="Command menu">
+      <div class="cmdk__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input data-cmdk-input type="text" placeholder="Jump to a section, copy email, open GitHub…" autocomplete="off" spellcheck="false" aria-label="Search commands" />
+      </div>
+      <ul class="cmdk__list" data-cmdk-list role="listbox" aria-label="Commands"></ul>
+      <div class="cmdk__foot">
+        <span><kbd>↑</kbd><kbd>↓</kbd> move</span>
+        <span><kbd>↵</kbd> select</span>
+        <span><kbd>esc</kbd> close</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
